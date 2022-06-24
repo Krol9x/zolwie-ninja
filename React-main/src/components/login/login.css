@@ -1,0 +1,40 @@
+.login-div{
+    background-color: lightgray;
+    border : 10px solid #FFF5E6;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
+.pole{
+    margin: 10px;
+    width: 80%;
+    height: 20%;
+    border-radius: 10px;
+    border:0;
+    -webkit-box-shadow: 0 8px 6px -8px black;
+    -moz-box-shadow: 0 8px 6px -8px black;
+    box-shadow: 0 8px 6px -8px black;
+    background-color: #FFF5E6;
+}
+.pole:hover{
+    outline: 2px solid grey;
+}
+.btn{
+    width: 84%;
+    height: 20%;
+    margin-top: 10px;
+    background-color: #82D9A0;
+    color:white;
+    border-radius: 10px;
+    border:0;
+    -webkit-box-shadow: 0 8px 6px -8px black;
+    -moz-box-shadow: 0 8px 6px -8px black;
+    box-shadow: 0 8px 6px -8px black;
+}
+
+.btn:hover{
+    background-color: lightgreen;
+}

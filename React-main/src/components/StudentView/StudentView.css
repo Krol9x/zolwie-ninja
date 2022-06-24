@@ -1,0 +1,157 @@
+.xd{
+  
+}
+.Studentview {
+ 
+    width: 70%;
+    height: auto;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.xd ul {
+    position: relative;
+    max-height:500px;
+    width:90%;
+    overflow-y: scroll;
+    scrollbar-color: #CD5D67 #FFF5E6;
+    scrollbar-width: thin;
+
+}
+
+ul li {
+    position: relative;
+
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.attachments ol {
+    border-radius: 7px;
+    width: 80%;
+    height: 100%;
+    margin-left: 5%;
+    border: 5px solid #CD5D67;
+    overflow-x: hidden;
+}
+
+.attachments button {
+    position: relative;
+    width: 50%;
+    display: inline-table;
+}
+
+.attachments ol li {
+    position: relative;
+    width: 70%;
+    height: 20%;
+    margin-top:-20px;
+}
+
+.post {
+    position: relative;
+    top:0px;
+    width: 100%;
+    height: auto;
+    background-color: #FFF5E6;
+    border: 10px solid #FFF5E6;
+    border-radius: 10px;
+    margin-top:100px;
+}
+
+.header {
+    position: relative;
+    top: 5px;
+    width: 100%;
+    height: 30%;
+}
+
+.header h1 {
+    text-align: center;
+    color: #CD5D67;
+}
+.header h3 {
+    text-align: right;
+    position: relative;
+}
+
+
+.attachments {
+    position: relative;
+    left: 4%;
+    width: 46%;
+    display: inline-table;
+    height: 115px;
+    background-color: #FFF5E6;
+    vertical-align: top
+}
+
+.description {
+    position: relative;
+    left: 4%;
+    width: 46%;
+    height: 115px;
+    display: inline-table;
+    background-color: #FFF5E6;
+    vertical-align: top
+}
+
+.send {
+    background-color: #82D9A0;
+    border-radius: 6px;
+    position: relative;
+    width: 30% !important;
+    height: 30px;
+    border: 0;
+    top: -25px;
+    left: 65%;
+    color: #FFF5E6;
+}
+
+.add:hover {
+    background-color: #E6A9A7;
+}
+
+.add {
+    background-color: #CD5D67;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 10%;
+    width: 30% !important;
+    height: 30px;
+    border: 0;
+    left: 5%;
+    color: #FFF5E6;
+}
+
+.send:hover {
+    background-color: #434556;
+}
+
+form .upload {
+    position: relative;
+    margin-top: 5%;
+    width: 30%;
+    height: 30px;
+    text-align: center;
+    background: #CD5D67;
+    border-radius: 10px;
+    left: 5%;
+}
+
+form .upload input[type="file"] {
+     position: absolute;
+     top: 0;
+     right: 0;
+     margin: 0;
+     padding: 0;
+     width: 100%;
+     height: 100%;
+     opacity: 0;
+}
+
+form .upload label {
+     color: white;
+}
+

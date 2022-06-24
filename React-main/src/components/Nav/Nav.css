@@ -1,0 +1,33 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 5%;
+    position: absolute;
+    top: 0;
+    background-color: aliceblue;
+    margin: 0;
+    background-color: #FFF5E6;
+    align-items: center;
+    z-index: 9;
+}
+
+.logout{
+    margin-right: 10px;
+    width: 10%;
+    height: 70%;
+    background-color: #CD5D67;
+    color:white;
+    border-radius: 10px;
+    border:0;
+    -webkit-box-shadow: 0 8px 6px -8px black;
+    -moz-box-shadow: 0 8px 6px -8px black;
+    box-shadow: 0 8px 6px -8px black;
+}
+.logout:hover{
+    background-color:#E6A9A7 ;
+}
+
+.navbar button{
+    width:120px;
+}
